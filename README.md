@@ -1,39 +1,103 @@
-# Expense Tracker
+# Expense Management System
 
-The Expense Tracker is a web-based application designed to help users track and manage their daily expenses efficiently. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this application provides a scalable, responsive, and user-friendly interface to simplify personal and business financial management.
+The Expense Management System is a web-based application designed to assist users in tracking and managing their daily expenses. Built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js), the system offers a scalable, responsive, and user-friendly platform for efficient personal and organizational financial management.
 
-- Simplifies expense tracking for individuals and organizations.  
-- Provides detailed insights into spending patterns for better financial management.  
-- Allows users to create, update, and delete expenses and categories.  
-- Generates comprehensive reports based on time periods and categories.  
+## Objectives
 
-## Key Features
+1. Simplify expense tracking for individuals and organizations.  
+2. Provide detailed insights into spending patterns to enable better financial management.  
+3. Offer a platform for users to create, update, and delete expenses and categories.  
+4. Generate comprehensive reports based on user-defined time periods and categories.  
 
-- **Dynamic Expense Management**: Add, edit, and delete expenses effortlessly with real-time updates.  
-- **Interactive Data Visualization**: Utilize Chart.js to visualize spending patterns through interactive and intuitive charts.  
-- **Expense Categorization and Filtering**: Organize expenses by category and apply filters for detailed insights.  
-- **User Authentication**: Secure user data with JWT-based authentication and authorization.  
-- **Responsive Design**: Fully optimized for performance across devices and browsers.  
-- **Cloud Deployment**: Frontend hosted on AWS and backend on Render for high availability and scalability.  
+## Features
+
+### User Authentication and Authorization
+- Secure sign-up and login for personal accounts using JSON Web Tokens (JWT).  
+- Role-based access control for administrative tasks.  
+
+### Expense and Category Management
+- Create, update, and delete expense entries and categories.  
+- Track expenses by date, category, and description.  
+- Attach receipts or relevant documents to expense entries.
+
+### Dashboard and Reporting
+- Visual dashboard with an overview of total expenses, expenses by category, and recent transactions.  
+- Generate reports with pie charts and bar graphs for selected date ranges and categories.
+
+### Responsive User Interface
+- Clean, responsive UI optimized for desktop, tablet, and mobile devices.  
+- Built with React.js to create reusable components and manage state effectively.  
+
+## Technical Architecture
+
+### Frontend
+- **React.js**: For building the user interface.  
+- **tsparticles**: For visually appealing background effects.  
+- **CSS Frameworks**: Bootstrap, Material Icons for responsive design.  
+- Additional Libraries: `unique-names-generator`, `react-datepicker`, `moment`.
+
+### Backend
+- **Node.js**: Backend runtime environment.  
+- **Express.js**: RESTful API for handling client requests.  
+- **JWT**: Secure user authentication and middleware-protected endpoints.  
+
+### Database
+- **MongoDB**: NoSQL database for storing user information, expense entries, and categories.  
+- **Mongoose**: ORM for schema definitions and validations.  
+
+### Deployment
+- **AWS**: Frontend hosted for high performance and reliability.  
+- **Render**: Backend hosted for scalability and uptime.  
+- **CI/CD Pipelines**: Set up for automated builds and deployments.  
+
+## Run Locally
+
+Clone the project
+      
+    git clone https://github.com/nishant1810/Expense-Tracker
+
+Go to the project directory
+
+    cd Expense-Tracker-App
+
+Go to the frontend directory and Install dependencies
+
+    cd frontend
+    npm install
+
+Go to the backend directory and Install dependencies
+
+    cd backend
+    npm install
+
+Start the frontend server:
+
+    npm start
+
+Start the backend server:
+
+    npm run dev
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file in backend folder
+
+create config folder and add config.env file in it and all all env variables there.
+
+MONGO_URL : Your MongoDB Connection String
+
+PORT: PORT number
+
+Run the Frontend Server
+
+cd frontend
+npm start
 
 ## Tech Stack
 
-### Frontend
-- **React.js**: For creating dynamic user interfaces.  
-- **Bootstrap**: Ensures responsive and modern design.  
-- **tsparticles**: Adds engaging background effects.  
-- **Libraries**: `unique-names-generator`, `react-datepicker`, and `moment` for added functionality.  
+Client: React, Redux, react-bootstrap, Material Icons, tsparticles
 
-### Backend
-- **Node.js**: Provides a robust runtime environment for server-side development.  
-- **Express.js**: Facilitates the creation of RESTful APIs.  
-- **JWT**: Secures endpoints with authentication and authorization middleware.  
+Server: Node, Express
 
-### Database
-- **MongoDB**: Stores user information, expense data, and categories.  
-- **Mongoose**: Defines and validates data schemas.  
+Database: MongoDB
 
-### Deployment
-- **AWS**: Frontend hosting for fast and reliable access.  
-- **Render**: Backend hosting with efficient scaling.  
-- **CI/CD Pipelines**: Ensures seamless automated builds and deployments.  
