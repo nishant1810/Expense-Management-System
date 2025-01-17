@@ -1,5 +1,6 @@
-The Expense Tracker is a web-based application designed to help users effectively track and manage their daily expenses. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), 
-this application delivers a seamless, responsive, and user-friendly experience for monitoring personal and business finances.
+Expense Tracker
+
+The Expense Tracker is a web-based application designed to help users track and manage their daily expenses efficiently. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this application provides a scalable, responsive, and user-friendly interface to simplify personal and business financial management.
 
 Key Features
 
