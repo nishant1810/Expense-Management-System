@@ -1,6 +1,6 @@
-# SpendWise
+#     Expense-Management-System
 
-The SpendWise System is a web-based application designed to assist users in tracking and managing their daily expenses. Built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js), the system offers a scalable, responsive, and user-friendly platform for efficient personal and organizational financial management.
+The     Expense-Management-System is a web-based application designed to assist users in tracking and managing their daily expenses. Built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js), the system offers a scalable, responsive, and user-friendly platform for efficient personal and organizational financial management.
 
 ## Objectives
 
@@ -48,11 +48,11 @@ The SpendWise System is a web-based application designed to assist users in trac
 
 Clone the project
       
-    git clone https://github.com/nishant1810/SpendWise.git
+    git clone https://github.com/nishant1810/Expense-Management-System.git
 
 Go to the project directory
 
-    cd SpendWise
+    cd Expense-Management-System
 
 Go to the frontend directory and Install dependencies
 
